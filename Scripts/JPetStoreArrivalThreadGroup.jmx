@@ -290,13 +290,13 @@
       <com.blazemeter.jmeter.threads.arrivals.ArrivalsThreadGroup guiclass="com.blazemeter.jmeter.threads.arrivals.ArrivalsThreadGroupGui" testclass="com.blazemeter.jmeter.threads.arrivals.ArrivalsThreadGroup" testname="bzm - Arrivals Thread Group">
         <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="TargetLevel">10</stringProp>
-        <stringProp name="RampUp">10</stringProp>
+        <stringProp name="TargetLevel">20</stringProp>
+        <stringProp name="RampUp">2</stringProp>
         <stringProp name="Steps">10</stringProp>
-        <stringProp name="Hold">60</stringProp>
+        <stringProp name="Hold">50</stringProp>
         <stringProp name="LogFilename"></stringProp>
         <stringProp name="Iterations"></stringProp>
-        <stringProp name="Unit">S</stringProp>
+        <stringProp name="Unit">M</stringProp>
         <stringProp name="ConcurrencyLimit"></stringProp>
       </com.blazemeter.jmeter.threads.arrivals.ArrivalsThreadGroup>
       <hashTree>
